@@ -68,13 +68,19 @@ export default function Navbar({ userRole, userName }: NavbarProps) {
                 >
                   Elections
                 </Link>
-                <Link 
+                <Link
                   href="/admin/candidates"
                   className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors"
                 >
                   Candidates
                 </Link>
-                <Link 
+                <Link
+                  href="/admin/electors"
+                  className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors"
+                >
+                  Electors
+                </Link>
+                <Link
                   href="/admin/results"
                   className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors flex items-center"
                 >
@@ -155,14 +161,21 @@ export default function Navbar({ userRole, userName }: NavbarProps) {
                   >
                     Elections
                   </Link>
-                  <Link 
+                  <Link
                     href="/admin/candidates"
                     className="block text-gray-700 hover:text-primary-600 px-3 py-2 text-base font-medium"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Candidates
                   </Link>
-                  <Link 
+                  <Link
+                    href="/admin/electors"
+                    className="block text-gray-700 hover:text-primary-600 px-3 py-2 text-base font-medium"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Electors
+                  </Link>
+                  <Link
                     href="/admin/results"
                     className="block text-gray-700 hover:text-primary-600 px-3 py-2 text-base font-medium"
                     onClick={() => setIsMenuOpen(false)}

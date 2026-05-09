@@ -249,9 +249,17 @@ export default function AdminDashboard() {
               <Users className="w-4 h-4 mr-2" />
               Manage Candidates
             </Link>
+            <Link href="/admin/electors" className="btn-secondary text-sm justify-center">
+              <Users className="w-4 h-4 mr-2" />
+              Manage Electors
+            </Link>
             <Link href="/admin/results" className="btn-secondary text-sm justify-center">
               <BarChart3 className="w-4 h-4 mr-2" />
               View Results
+            </Link>
+            <Link href="/admin/add-candidate" className="btn-primary text-sm justify-center">
+              <Plus className="w-4 h-4 mr-2" />
+              Add Candidate
             </Link>
             <Link href="/admin/elections/create" className="btn-primary text-sm justify-center">
               <Plus className="w-4 h-4 mr-2" />
