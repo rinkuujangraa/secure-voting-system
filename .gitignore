@@ -56,3 +56,12 @@ logs
 # Backup files
 *.backup
 *.bak
+
+# Platform-specific setup scripts
+*.bat
+*.exe
+
+# docs/ is intentionally tracked — only ignore dev plan artifacts
+plan.md
+notes.md
+todo.md
